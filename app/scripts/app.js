@@ -34,7 +34,7 @@ angular.module('livewellApp', [
       })
       .when('/wellness_plan', {
         templateUrl: 'views/wellness_plan.html',
-        controller: 'Wellness_planCtrl'
+        controller: 'WellnessPlanCtrl'
       })
       .when('/instructions', {
         templateUrl: 'views/instructions.html',
@@ -44,11 +44,11 @@ angular.module('livewellApp', [
         templateUrl: 'views/medications.html',
         controller: 'MedicationsCtrl'
       })
-      .when('/medications', {
+      .when('/reduce_risk', {
         templateUrl: 'views/reduce_risk.html',
         controller: 'ReduceRiskCtrl'
       })
-      .when('/medications', {
+      .when('/awareness_and_action', {
         templateUrl: 'views/awareness_and_action.html',
         controller: 'AwarenessAndActionCtrl'
       })
