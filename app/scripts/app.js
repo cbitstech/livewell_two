@@ -56,6 +56,26 @@ angular.module('livewellApp', [
         templateUrl: 'views/charts.html',
         controller: 'ChartsCtrl'
       })
+      .when('/intervention/:type/:filterA', {
+        templateUrl: 'views/intervention.html',
+        controller: 'InterventionCtrl'
+      })
+      .when('/intervention/:type/:filterA/:filterB', {
+        templateUrl: 'views/intervention.html',
+        controller: 'InterventionCtrl'
+      })
+      .when('/intervention/:type/:filterA/:filterB', {
+        templateUrl: 'views/intervention.html',
+        controller: 'InterventionCtrl'
+      })
+      .when('/intervention/:type/:filterA/:filterB/:filterC', {
+        templateUrl: 'views/intervention.html',
+        controller: 'InterventionCtrl'
+      })
+      .when('/intervention_review', {
+        templateUrl: 'views/intervention_review.html',
+        controller: 'InterventionReviewCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('livewellTwoApp')
+angular.module('livewellApp')
   .controller('WeeklyCheckInCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

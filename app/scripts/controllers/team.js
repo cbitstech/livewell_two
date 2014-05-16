@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('livewellTwoApp')
+angular.module('livewellApp')
   .controller('TeamCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
